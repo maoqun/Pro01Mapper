@@ -15,6 +15,16 @@ public class Employee {
 	
 	private String empName;//emp_name_mapper01 and 02
 	
+	private String empEmail;
+	
+	public String getEmpEmail() {
+		return empEmail;
+	}
+
+	public void setEmpEmail(String empEmail) {
+		this.empEmail = empEmail;
+	}
+
 	@Column(name="emp_salary_apple")
 	private Double empSalary;//emp_salary_apple
 	
