@@ -13,7 +13,7 @@ public class Employee {
 //	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer empId;//emp_id
 	
-	private String empName;//emp_name_mapper2
+	private String empName;//emp_name_mapper01 and 02
 	
 	@Column(name="emp_salary_apple")
 	private Double empSalary;//emp_salary_apple
